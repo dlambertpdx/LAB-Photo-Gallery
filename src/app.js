@@ -5,12 +5,14 @@ import renderHeader from '../src/render-header.js';
 
 const horns = document.querySelector('.horns');
 const body = document.getElementById('body');
-const radioInput = document.getElementsByName('horns');
-const filterButton = document.getElementById('filter-button');
 
-filterButton.addEventListener('click', () => {
-    console.log(radioInput.value);
-});
+// STILL WORKING ON STRETCH GOAL
+// const radioInput = document.getElementsByName('horns');
+// const filterButton = document.getElementById('filter-button');
+
+// filterButton.addEventListener('click', () => {
+//     console.log(radioInput.value);
+// });
 
 const headerHtml = renderHeader();
 const headerDom = htmlToDOM(headerHtml);
