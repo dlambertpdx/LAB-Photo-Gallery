@@ -1,15 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton&display=swap');
 
 header {
     display: flex;
     align-items: center;
+    background-color: #233237;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+header h1 {
+    margin-left: 30px;
 }
 
 header img {
     height: 100px;
 }
 
+body {
+    background-color: #eac67a;
+    font-family: 'Abel', sans-serif;
+    }
+
+.filters {
+    display: flex;
+    margin: 15px auto;
+    width: 900px;
+}
+
+.filters div {
+    margin: 15px;
+}
 .horns {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .horns li {
@@ -20,8 +43,10 @@ header img {
     height: 250px;
     width: 250px;
     border: 1px solid black;
-    background-color: red;
+    background-color:#18121e;
+    color: white;
     list-style: none;
+    margin: 15px;
 }
 
 .image-container {
@@ -31,4 +56,9 @@ header img {
 .image-container img{
     height: 100%;
     object-fit: contain;
+}
+
+footer {
+    height: 80px;
+    background-color: #984b43;
 }
